@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Homepage</h1>
+    <p>to create a link in HTML we use anchor tag "a"</p>
+    <a href="https://www.theodinproject.com/lessons/foundations-links-and-images">About the Odin Project</a>
+    <p>this opens the link in this same tab instead of opening new tab</p>
+    <a href="https://www.theodinproject.com/lessons/foundations-links-and-images" target="_blank" rel="noopener noreferrer">About the Odin Project</a>
+    <p>While href specifies the destination link, target specifies where the linked resource will be opened
+        noopener: The noopener value of the rel attribute ensures that a link opened in a new tab or window
+         cannot interact with or access the original page
+    <p>Why do we need this added behavior for opening links in new tabs? Security reasons. The prevention of access that 
+        is caused by noopener prevents phishing attacks 
+        where the opened link may change the original
+         webpage to a different one to trick users. This is
+          referred to as tabnabbing.</p>
+
+    <p>relative links</p>
+    <a href="pages/about.html">About Us</a>
+    </p>
+    <img src="../git_test\images\images.jpg" alt="Failed to Uploade the image" height="310" width="250">
+</body>
+</html> 
